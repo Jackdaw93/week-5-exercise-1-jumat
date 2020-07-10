@@ -7,7 +7,14 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -15,13 +22,20 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
-
     <title>Express JS | About</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #ddd;
+      }
+    </style>
   </head>
   <body>
-    <Container>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="/">Express JS</a>
+    <nav class="navbar fix-top navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Express JS</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -35,39 +49,51 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link" href="/">Home </a>
+            <a class="nav-item nav-link " href="/">Home</a>
             <a class="nav-item nav-link active" href="/about">About</a>
+            
           </div>
         </div>
-      </nav>
-    </Container>
-    <Container>
-      <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h1 class="display-4">Fluid jumbotron</h1>
-          <p class="lead">
-            This is a modified jumbotron that occupies the entire horizontal
-            space of its parent.
-          </p>
-        </div>
       </div>
-    </Container>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid" style="padding: 20px;">
+      <div class="container text-center">
+        <img width="200px" height="200px" src="assets/img/programmingv2.svg" alt="Profile" />
+        <h1 class="display-5" id="name">RohMad</h1>
+        <i class="fa fa-map-marker" aria-hidden="true"></i>
+        <p class="lead" id="location">DKI Jakarta</p>
+      </div>
+    </div>
+    <h3 class="text-center">My Project</h3>
+    <div class="container">
+      <div class="row">
+        <div class="col-md">
+            <div class="card" style="width: 18rem;">
+                <img src="assets/img/new_task.svg" class="card-img-top" alt="...">
+              </div>
+        </div>
+        <div class="col-md">
+            <div class="card" style="width: 18rem;">
+                <img src="assets/img/gaming.svg" class="card-img-top" alt="...">
+              </div>
+        </div>
+        <div class="col-md">
+            <div class="card" style="width: 18rem;">
+                <img src="assets/img/new_film.png" class="card-img-top" alt="...">
+              </div>
+        </div>
+       
+      </div>
+    </div>
+    <script src="script.js"></script>
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
   </body>
 </html>
